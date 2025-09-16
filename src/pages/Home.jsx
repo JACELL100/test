@@ -4,7 +4,7 @@ import Sos from "../components/Sos";
 import OurFeatures from "../components/OurFeatures";
 import FadeInComponent from "../lib/FadeInComponent";
 import FloatingChatbot from "@/components/FloatingChatbot";
-import Chartglobal from "./chart-global";
+import IncidentAnalyticsDashboard from "./chart-global";
 
 const Testimonials = lazy(() => import("@/components/Testimonials"));
 const FAQSection = lazy(() => import("@/components/FAQ"));
@@ -83,7 +83,7 @@ const Home = () => {
           {/* <FadeInComponent> */}
           {/* Features Section */}
           <section className="relative shadow-[inset_0_-20px_30px_-20px_rgba(0,0,0,0.2)]">
-            <Chartglobal />
+            <IncidentAnalyticsDashboard />
           </section>
           {/* </FadeInComponent> */}
 
